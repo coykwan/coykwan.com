@@ -13,10 +13,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
 
     width: 100%;
+    max-width: $page-width;
 
-    background: $secondary;
     color: $on-secondary;
     font-family: $core-font;
 
