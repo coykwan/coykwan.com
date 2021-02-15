@@ -11,9 +11,9 @@ const Header = props => (
         <div className="HeaderTitle">{props.appTitle}</div>
       </Link>
       <div className="HeaderIcons">
-        <Icon className="HeaderIcon" path={mdiGithubCircle} size={1.5} color="white"/>
-        <Icon className="HeaderIcon" path={mdiGmail} size={1.5} color="white"/>
-        <Icon className="HeaderIcon" path={mdiLinkedin} size={1.5} color="white"/>
+        <a href="https://github.com/coykwan" target = "blank"><Icon className="HeaderIcon" path={mdiGithubCircle} size={1.5} color="white"/></a>
+        <a href="mailto:coykwan@gmail.com"><Icon className="HeaderIcon" path={mdiGmail} size={1.5} color="white"/></a>
+        <a href="https://www.linkedin.com/in/coy-kwan-4039b4192/" target = "blank"><Icon className="HeaderIcon" path={mdiLinkedin} size={1.5} color="white"/></a>
       </div>
     </div>
   </div>
